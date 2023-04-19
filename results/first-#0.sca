@@ -1,0 +1,58 @@
+version 3
+run first-0-20230418-21:47:16-7056
+attr configname first
+attr datetime 20230418-21:47:16
+attr datetimef 20230418-214716
+attr experiment first
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network proyecto_Final
+attr processid 7056
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config record-eventlog true
+config network proyecto_Final
+
+par proyecto_Final.tower1.out.channel typename "\"ned.DelayChannel\""
+par proyecto_Final.tower1.out.channel disabled false
+attr mutable ""
+par proyecto_Final.tower1.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par proyecto_Final.tower2.out.channel typename "\"ned.DelayChannel\""
+par proyecto_Final.tower2.out.channel disabled false
+attr mutable ""
+par proyecto_Final.tower2.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par proyecto_Final.tower3.out.channel typename "\"ned.DelayChannel\""
+par proyecto_Final.tower3.out.channel disabled false
+attr mutable ""
+par proyecto_Final.tower3.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par proyecto_Final.tower5.out.channel typename "\"ned.DelayChannel\""
+par proyecto_Final.tower5.out.channel disabled false
+attr mutable ""
+par proyecto_Final.tower5.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par proyecto_Final.tower4.out.channel typename "\"ned.DelayChannel\""
+par proyecto_Final.tower4.out.channel disabled false
+attr mutable ""
+par proyecto_Final.tower4.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par proyecto_Final.tower1 typename "\"Txc1\""
+par proyecto_Final.tower2 typename "\"Txc1\""
+par proyecto_Final.tower3 typename "\"Txc1\""
+par proyecto_Final.tower4 typename "\"Txc1\""
+par proyecto_Final.tower5 typename "\"Txc1\""
+par proyecto_Final typename "\"proyecto_Final\""
+
